@@ -7,7 +7,8 @@ public class GenerationProcedural : MonoBehaviour
     public float XSize, YSize;
     public float Zoom;
     public float Seuil;
-    public Tile With, Black;
+    public RuleTile Cave;
+    public Tile Black;
     public Tilemap TileMap;
     
     public void Update()
@@ -18,7 +19,7 @@ public class GenerationProcedural : MonoBehaviour
                 float PerlinValue = Mathf.PerlinNoise (Seed + x * Zoom, Seed + y * Zoom);
                 
                 if(PerlinValue >= Seuil) TileMap.SetTile(new Vector3Int(x, y, 0), Black);
-                else TileMap.SetTile(new Vector3Int(x, y, 0), With);
+                else TileMap.SetTile(new Vector3Int(x, y, 0), Cave);
             }
         }
     }
