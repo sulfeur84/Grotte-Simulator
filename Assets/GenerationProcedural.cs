@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 
 public class GenerationProcedural : MonoBehaviour
 {
@@ -10,7 +12,10 @@ public class GenerationProcedural : MonoBehaviour
     public RuleTile Cave;
     public Tile Black;
     public Tilemap TileMap;
-    
+
+    public Slider sliderS, sliderZ;
+
+
     public void Update()
     {
         TileMap.ClearAllTiles();
@@ -18,9 +23,15 @@ public class GenerationProcedural : MonoBehaviour
             for (int x = 0; x < XSize; x++) {
                 float PerlinValue = Mathf.PerlinNoise (Seed + x * Zoom, Seed + y * Zoom);
                 
-                if(PerlinValue >= Seuil) TileMap.SetTile(new Vector3Int(x, y, 0), Black);
-                else TileMap.SetTile(new Vector3Int(x, y, 0), Cave);
+                if(PerlinValue <= Seuil) TileMap.SetTile(new Vector3Int(x, y, 0), Cave);
+                //else TileMap.SetTile(new Vector3Int(x, y, 0), Cave);
             }
         }
+
+        Seuil = sliderS.value;
+        Zoom = sliderZ.value;
+
+
     }
+    
 }
