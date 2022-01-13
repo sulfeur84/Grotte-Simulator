@@ -13,9 +13,9 @@ public class JeuDlaVie : MonoBehaviour
     public int[,] FirstTablo = new int[,]
     {
         {0,0,0,0},
-        {0,1,1,1},
-        {1,1,1,0},
-        {0,0,0,0},
+        {0,1,0,0},
+        {0,1,0,0},
+        {0,1,0,0},
     };
     
     public int[,] SecondTablo = new int[,]

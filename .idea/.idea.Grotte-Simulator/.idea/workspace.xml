@@ -22,6 +22,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scheme/Salles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scheme/StartSalle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scheme/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/JeuDlaVie/Cell.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23KbxJyfP0UKx3HSDVUKKfa7Nxp" />
@@ -77,7 +80,9 @@
       <workItem from="1641558979187" duration="10852000" />
       <workItem from="1641720391998" duration="2608000" />
       <workItem from="1641909252219" duration="823000" />
-      <workItem from="1641988321004" duration="3508000" />
+      <workItem from="1641988321004" duration="3889000" />
+      <workItem from="1642082945427" duration="473000" />
+      <workItem from="1642086927392" duration="5438000" />
     </task>
     <servers />
   </component>
