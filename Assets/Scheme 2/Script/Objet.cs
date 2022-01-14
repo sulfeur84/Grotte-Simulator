@@ -19,9 +19,14 @@ public class Objet : MonoBehaviour
 
     public void Start()
     {
+        int Ran = Random.Range(0, 4);
         Vector3 newRotation = new Vector3(0, 0, Random.Range(0, 360));
         int PrefabIndex = Random.Range(0,Objects.Count);
-        Instantiate(Objects[PrefabIndex], new Vector3(MyTrans.position.x + Random.Range(MinX, MaxX), 
-            MyTrans.position.y + Random.Range(MinY, MaxY)), Quaternion.Euler(0,0,Random.Range(0,360)));
+        for (int i = 0; i < Ran; i++)
+        {
+            Instantiate(Objects[PrefabIndex], new Vector3(MyTrans.position.x + Random.Range(MinX, MaxX), 
+                        MyTrans.position.y + Random.Range(MinY, MaxY)), Quaternion.Euler(0,0,Random.Range(0,360)));
+        }
+        
     }
 }

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PerlinNoise/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scheme 2/Menu.unity
+    guid: 2aaacb9da7166cc4eb0d229458bc1e01
+  - enabled: 1
+    path: Assets/Scheme 2/Scheme 2.unity
+    guid: 9f21dc32efef7aa44b89cfd63839484c
   m_configObjects: {}

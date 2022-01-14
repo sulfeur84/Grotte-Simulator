@@ -10,6 +10,7 @@ TagManager:
   - Droite
   - SpawnPoint
   - Room
+  - Speed
   layers:
   - Default
   - TransparentFX

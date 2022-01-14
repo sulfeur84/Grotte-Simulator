@@ -22,6 +22,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scheme 2/Script/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scheme 2/UIEtCompagnie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scheme 2/Script/AddRoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scheme 2/Script/DestroyOnTrig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/JeuDlaVie/Cell.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="23KbxJyfP0UKx3HSDVUKKfa7Nxp" />
@@ -82,6 +87,8 @@
       <workItem from="1642086927392" duration="5438000" />
       <workItem from="1642147764243" duration="8286000" />
       <workItem from="1642157699741" duration="1728000" />
+      <workItem from="1642161142695" duration="3133000" />
+      <workItem from="1642165137034" duration="5805000" />
     </task>
     <servers />
   </component>
