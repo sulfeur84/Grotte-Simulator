@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4009932057092533032}
   - component: {fileID: 2021989360566248229}
   - component: {fileID: -6187054344170994861}
+  - component: {fileID: -3937075347736293231}
   m_Layer: 0
   m_Name: Salle G
   m_TagString: Gauche
@@ -105,6 +106,26 @@ MonoBehaviour:
   IsB: 0
   IsG: 0
   IsD: 0
+--- !u!114 &-3937075347736293231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736708777328475236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8158042a3aaf10549a8d7e9f5674edde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objects:
+  - {fileID: 8925277770099791922, guid: 74eeb8c626f74a8469ebeea6f28d1b78, type: 3}
+  - {fileID: 5154418127002579266, guid: df192c9ca6685724aaa449cc5720f388, type: 3}
+  - {fileID: 4091733245055913169, guid: 7d1d01ea5d83f2847866d88b658733d8, type: 3}
+  MinX: -1
+  MaxX: 1
+  MinY: -0.5
+  MaxY: 0.5
 --- !u!1 &1068547703073113595
 GameObject:
   m_ObjectHideFlags: 0

@@ -204,7 +204,7 @@ Transform:
   m_LocalScale: {x: 3, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &405408270
 MonoBehaviour:
@@ -218,10 +218,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f0615d35c3041644af6784d987880be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Haut: {fileID: 8829115339591575470, guid: 66267ce839492cb43b243d8d0d9c466b, type: 3}
-  Bas: {fileID: 5212647472391128387, guid: b139d22d4b952eb4baa1385ae8492592, type: 3}
-  Gauche: {fileID: 736708777328475236, guid: 6556aeae5fd0b79419beba2f4a415444, type: 3}
-  Droite: {fileID: 6633074855977028943, guid: e6147534a08244f47aa47cac89a6f550, type: 3}
+  Haut: {fileID: 4941808419856739304, guid: 48f6db375029bb74cbb296fbefef7939, type: 3}
+  Bas: {fileID: 6752597736933973865, guid: 51342167392d0f340b19552f74adc689, type: 3}
+  Gauche: {fileID: 5476761785554244783, guid: cd711a4447b5cb249b3b4040a243e880, type: 3}
+  Droite: {fileID: 6147662165743776144, guid: 9d3e39ebefad2b64881ff6ab29551241, type: 3}
   DungeonsMax: 10
 --- !u!1 &515216709
 GameObject:
@@ -282,7 +282,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 0, g: 1, b: 0.19427705, a: 1}
   m_FlipX: 0
@@ -303,10 +303,11 @@ Transform:
   m_GameObject: {fileID: 515216709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_Children: []
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_Children:
+  - {fileID: 658527956}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &515216712
 Rigidbody2D:
@@ -328,7 +329,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &515216713
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -411,7 +412,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 1.35
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -434,10 +435,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658527953}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.3333333, y: 3.3333333, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 515216711}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

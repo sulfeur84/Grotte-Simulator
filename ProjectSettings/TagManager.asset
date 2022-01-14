@@ -8,6 +8,8 @@ TagManager:
   - Bas
   - Gauche
   - Droite
+  - SpawnPoint
+  - Room
   layers:
   - Default
   - TransparentFX

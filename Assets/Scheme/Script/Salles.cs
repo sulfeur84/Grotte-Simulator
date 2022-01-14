@@ -10,7 +10,7 @@ public class Salles : MonoBehaviour
     private int H, B, G, D;
     private Transform MyTransform;
 
-    public bool IsH, IsB, IsG, IsD;
+    private bool IsH, IsB, IsG, IsD;
     
     public static int DungeonsMax;
     public void Awake()

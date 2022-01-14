@@ -175,6 +175,7 @@ GameObject:
   - component: {fileID: 5404430813023021823}
   - component: {fileID: 3968977814263935991}
   - component: {fileID: 8304363008847307043}
+  - component: {fileID: 1382182770284397962}
   m_Layer: 0
   m_Name: Salle B
   m_TagString: Bas
@@ -190,7 +191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5212647472391128387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.764, y: -0.014, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 2, z: 1}
   m_Children:
   - {fileID: 8388742643157818764}
@@ -273,6 +274,26 @@ MonoBehaviour:
   IsB: 0
   IsG: 0
   IsD: 0
+--- !u!114 &1382182770284397962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5212647472391128387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8158042a3aaf10549a8d7e9f5674edde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objects:
+  - {fileID: 8925277770099791922, guid: 74eeb8c626f74a8469ebeea6f28d1b78, type: 3}
+  - {fileID: 5154418127002579266, guid: df192c9ca6685724aaa449cc5720f388, type: 3}
+  - {fileID: 4091733245055913169, guid: 7d1d01ea5d83f2847866d88b658733d8, type: 3}
+  MinX: -1
+  MaxX: 1
+  MinY: -0.5
+  MaxY: 0.5
 --- !u!1 &5244052691591293419
 GameObject:
   m_ObjectHideFlags: 0
