@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RommTemplate : MonoBehaviour
 {
@@ -35,5 +36,7 @@ public class RommTemplate : MonoBehaviour
         {
             WaitTime -= Time.deltaTime;
         }
+
+        if (Input.GetKeyDown(KeyCode.R)) SceneManager.LoadScene("Scheme 2");
     }
 }
