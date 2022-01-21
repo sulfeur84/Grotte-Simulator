@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -9,6 +10,8 @@ public class TriangulaSpawn : MonoBehaviour
     public int MaxSalle;
     private Transform MyTrans;
     public float MinX, MaxX, MinY, MaxY;
+
+    public List<GameObject> Salles;
 
     public void Awake()
     {
