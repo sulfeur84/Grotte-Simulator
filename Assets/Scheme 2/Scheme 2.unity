@@ -806,8 +806,7 @@ MonoBehaviour:
   - {fileID: 2266771944625983863, guid: 88a863a9f7b52c747a15f815c29d3b45, type: 3}
   - {fileID: 7803706156566248562, guid: 97b33baffe567674e8bca967dee364fc, type: 3}
   - {fileID: 1675776112597085621, guid: 9cb0ae8457cc2a54caaa8a22ab644091, type: 3}
-  Rooms:
-  - {fileID: 4096861853993051435, guid: 386a8000e7143514e8fb90fcc080ae4a, type: 3}
+  Rooms: []
   WaitTime: 3
   Boss: {fileID: 4072182926495253687, guid: c619258a7560eaf479f757e9ed5c8520, type: 3}
 --- !u!4 &1269571875
